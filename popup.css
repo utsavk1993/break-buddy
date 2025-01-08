@@ -1,0 +1,109 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-style: normal;
+  background: #f8f9fa;
+  color: #333;
+  padding: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+/* Header Styling */
+h2 {
+  font-size: 21px;
+  color: hwb(114deg 30.08% 34.08% / 93.5%);
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Paragraph Styling */
+p {
+  font-size: 1rem;
+  color: #555;
+  text-align: center;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+/* Input Label and Field */
+label {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 8px;
+  display: block;
+  text-align: left;
+  width: 100%;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  margin-top: 5px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+  border-color: #2c7be5;
+  box-shadow: 0 0 5px rgba(44, 123, 229, 0.5);
+  outline: none;
+}
+
+/* Save Button */
+button {
+  background: hwb(114deg 30.08% 34.08% / 93.5%);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+  width: 100%;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-bottom: 15px;
+}
+
+/* Tip Section */
+#tip {
+  color: hwb(114deg 30.08% 34.08% / 93.5%);
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+}
+
+/* Footer Styling */
+.footer {
+  font-size: 0.85rem;
+  color: #888;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.footer a {
+  color: #2c7be5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

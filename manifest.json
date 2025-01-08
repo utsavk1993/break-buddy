@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Break Buddy",
+  "version": "1.0",
+  "description": "Gently reminds you to take screen breaks at customizable intervals, starting with 15 minutes.",
+  "permissions": ["notifications", "alarms", "storage"],
+  "background": {
+    "service_worker": "breakBuddy.js"
+  },
+  "action": {
+    "default_icon": "icon.png",
+    "default_title": "Take a Break Reminder",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

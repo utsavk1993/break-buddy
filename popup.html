@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Take a Break Reminder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./popup.css">
+</head>
+<body>
+  <h2>Take a Break Reminder</h2>
+  <p>Stay refreshed and healthy by taking regular breaks!</p>
+  <label>
+    Set Interval (minutes):
+    <input type="number" id="interval" value="15" min="1">
+  </label>
+  <button id="save">Save</button>
+  <p><strong>Tip:</strong> <span id="tip"></span></p>
+  <div class="footer">
+    Made with ❤️ for a healthier screen time. <br>
+  </div>
+</body>
+<script src="popup.js"></script>
+</html>
