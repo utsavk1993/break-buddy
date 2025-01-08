@@ -4,6 +4,10 @@ Welcome to Break Buddy! ⏳
 
 This Chrome extension helps you stay refreshed and healthy by reminding you to take regular breaks from your screen. It’s fully configurable, with a default interval of 15 minutes, making it the perfect companion for busy professionals and students.
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/aaf9c1b3-65a7-4807-89a2-c909c769d050" alt="Screenshot" />
+</div>
+
 ## Key features
 
 - 🛎️ Customizable Intervals: Set reminders at intervals that suit your workflow
